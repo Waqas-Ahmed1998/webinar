@@ -14,8 +14,10 @@ body {
 }
 
 .subheading {
+  font-family: 'Lato', sans-serif;
 
-  font-family: 'Source Sans Pro', sans-serif;
+
+
 
 
 
@@ -25,9 +27,9 @@ input {
   font-family: sans-serif;
 }
 .heading {
-  font-family: 'Lato', sans-serif;
 
 
+  font-family: 'Libre Baskerville', serif;
 
 
 
@@ -36,6 +38,7 @@ input {
 .call{
 
 
+  font-family: 'Lato', sans-serif;
 
 
 
