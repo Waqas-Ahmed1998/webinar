@@ -9,27 +9,24 @@
 }
 body {
 
-  font-family: 'Domine', serif;
+  font-family: 'Inter', sans-serif;
+
 
 }
 
-.subheading {
-  font-family: 'Lato', sans-serif;
-
-
-
+.host {
 
 
 
 
 }
 input {
-  font-family: sans-serif;
+
 }
 .heading {
 
 
-  font-family: 'Libre Baskerville', serif;
+
 
 
 
@@ -38,7 +35,7 @@ input {
 .call{
 
 
-  font-family: 'Lato', sans-serif;
+
 
 
 
@@ -55,6 +52,10 @@ font-family: sans-serif;
 .rgba {
   background-color: rgba(10, 10, 10, 0.5);
 }
+.bg-black{
+  border: 1px solid #9ff3b8;
+
+}
 /* fonts  */
 /*font-family: 'Anton', sans-serif;
 font-family: 'Anybody', cursive;
@@ -62,6 +63,7 @@ font-family: 'Changa', sans-serif;
 font-family: 'Dancing Script', cursive;
 font-family: 'Domine', serif;
 font-family: 'Fjalla One', sans-serif;
+font-family: 'Francois One', sans-serif;
 font-family: 'Grape Nuts', cursive;
 font-family: 'Inter', sans-serif;
 font-family: 'Lato', sans-serif;

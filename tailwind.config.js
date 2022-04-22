@@ -1,4 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./*.html"],
   theme: {
@@ -26,6 +27,8 @@ module.exports = {
   },
   plugins: [
     require("@tailwindcss/typography"),
-    // require("@tailwindcss/line-clamp"),
+    require("tailwind-scrollbar"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
   ],
 };
