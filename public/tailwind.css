@@ -56,6 +56,30 @@ font-family: sans-serif;
   border: 1px solid #9ff3b8;
 
 }
+.chat-top-bg{
+  background-color: #31BE76;
+}
+.chat-top-bg-collapse{
+  background-color: #fcfcfc;
+  border-bottom: solid 2px  #E5E5E5;
+border-top: solid 2px  #E5E5E5;
+}
+.chat-heading-color-collapse{
+color:#cccccc;
+font-weight: 400;
+
+}
+.chat-content-animation{
+  transform: translateY(0%);
+
+}
+::placeholder{
+  color:#CCCCCC
+}
+textarea{
+  resize: none;
+  overflow:hidden
+}
 /* fonts  */
 /*font-family: 'Anton', sans-serif;
 font-family: 'Anybody', cursive;
