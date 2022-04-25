@@ -23,6 +23,22 @@ $(document).ready(function () {
   });
 });
 
+// **********submit quiz after click Tick-circle
+$(document).ready(function () {
+  $(".btn-bar-quiz,.btn-option-quiz").click(function (event) {
+    $(this).children().show();
+    $(this).children("span").text("Done");
+    // $(this).children(span).text("Done");
+    $(this).removeClass("submit");
+    event.preventDefault();
+    // $("#option-btn-text").text("Done");
+
+    // setTimeout(function () {
+    //   $(`.tick-circle`).hide();
+    // }, 3000);
+  });
+});
+
 // ********chat bar functionality
 
 $(document).ready(function () {

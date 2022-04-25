@@ -80,6 +80,14 @@ textarea{
   resize: none;
   overflow:hidden
 }
+.submit{
+  background-color: white;
+}
+.submit:hover {
+  background-color: #31BE76;
+  color:white;
+}
+
 /* fonts  */
 /*font-family: 'Anton', sans-serif;
 font-family: 'Anybody', cursive;
