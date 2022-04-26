@@ -5,6 +5,9 @@ $(document).ready(function () {
     $(this).toggleClass("bg-black");
     var checkbox1 = $("#checkbox-1");
     checkbox1.prop("checked", !checkbox1.prop("checked"));
+    // if (checkbox1.prop("checked", true, onchange)) {
+    //   checkbox1.addClass("bg-black");
+    // }
   });
   $("#check-2").click(function () {
     $(this).toggleClass("bg-black");
@@ -19,7 +22,7 @@ $(document).ready(function () {
   $("#check-4").click(function () {
     $(this).toggleClass("bg-black");
     var checkbox4 = $("#checkbox-4");
-    checkbox4.prop("checked", !checkbox4.prop("checked"));
+    $(this).children("#checkbox-4").prop("checked", !checkbox4.prop("checked"));
   });
 });
 

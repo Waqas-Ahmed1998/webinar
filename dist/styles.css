@@ -702,6 +702,10 @@ select {
   padding-bottom: 0;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .absolute {
   position: absolute;
 }
@@ -716,6 +720,18 @@ select {
 
 .bottom-6 {
   bottom: 1.5rem;
+}
+
+.z-\[2\] {
+  z-index: 2;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.z-\[1\] {
+  z-index: 1;
 }
 
 .col-span-3 {
@@ -1372,11 +1388,6 @@ font-family: 'Vazirmatn', sans-serif;*/
 .hover\:bg-green-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(187 247 208 / var(--tw-bg-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-green-200:hover {
